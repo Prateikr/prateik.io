@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateik Ravindra - Senior Associate Consultant</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.6s ease-out;
+        }
+
+        .visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid #00bfa5;
+            padding-bottom: 20px;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url('https://media.licdn.com/dms/image/C5603AQHzMEVKg6DjDw/profile-displayphoto-shrink_200_200/0/1648524439756?e=2147483647&v=beta&t=6j1vd8h-RYuAqCcIT-sjF8kx7j_2YBLTUox6teZoufQ');
+            background-size: cover;
+            background-position: center;
+            border: 4px solid #ff4081;
+        }
+
+        .header-text {
+            flex-grow: 1;
+            margin-left: 20px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #ff4081;
+        }
+
+        .info {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .info a {
+            color: #00bfa5;
+            text-decoration: none;
+        }
+
+        .info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.6s ease-out;
+        }
+
+        .section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            color: #00bfa5;
+            border-bottom: 2px solid #ff4081;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #999;
+            background-color: #ff4081;
+            color: white;
+            border-radius: 8px;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.6s ease-out;
+        }
+
+        .footer.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .profile-pic {
+                margin-bottom: 20px;
+            }
+
+            .header-text {
+                text-align: center;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="header">
+            <div class="profile-pic"></div>
+            <div class="header-text">
+                <h1>Prateik Ravindra</h1>
+                <p class="info">Senior Associate Consultant - Java</p>
+                <p class="info">📧 prateikofficial1@gmail.com | 📞 +91 98862 52112</p>
+                <p class="info"><a href="https://in.linkedin.com/in/prateik-r-9723bb192" target="_blank">LinkedIn Profile</a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Career Objective</h2>
+            <p>Proactive software engineer with experience in Java and Spring Boot, seeking to contribute in challenging environments and deliver value through teamwork.</p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <h3>Senior Associate Consultant</h3>
+            <p>Infosys Technologies Private Ltd. | April 2024 – Present</p>
+            <ul>
+                <li>Leading Java-based software projects.</li>
+                <li>Experienced with Docker, Kubernetes for deployments.</li>
+            </ul>
+            
+            <h3>Custom Software Developer</h3>
+            <p>Accenture Solutions Pvt. Ltd. | March 2021 – April 2024</p>
+            <ul>
+                <li>Modernized legacy systems using Spring Boot.</li>
+                <li>Developed RESTful microservices and managed teams.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Engineering in Mechanical Engineering</strong> - Vidya Vardhaka College of Engineering, Mysore (8.87 CGPA)</p>
+            <ul>
+                <li>Ranked 2nd in the department.</li>
+                <li>Awarded Best Outgoing Sportsman (2019).</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>IBM Data Science Specialization</li>
+                <li>Professional Development: Improve Yourself – Macquarie University</li>
+                <li>Google Associate Cloud Engineer (In Progress)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <p><strong>Primary Skills:</strong> Java, Spring Boot, Node.js, SQL</p>
+            <p><strong>Secondary Skills:</strong> Docker, Kubernetes, Git, Jira</p>
+        </div>
+
+        <div class="section">
+            <h2>Achievements & Recognitions</h2>
+            <ul>
+                <li>Early promotion for performance within 11 months.</li>
+                <li>Best Team of 2022 award for minimal defect delivery.</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Prateik Ravindra. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        // Function to reveal elements on scroll
+        function revealOnScroll() {
+            const elements = document.querySelectorAll('.section, .footer, .container');
+
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (elementTop < windowHeight - 50) {
+                    element.classList.add('visible');
+                }
+            });
+        }
+
+        // Listen for scroll events
+        window.addEventListener('scroll', revealOnScroll);
+
+        // Trigger animation on page load
+        window.onload = revealOnScroll;
+    </script>
+</body>
+</html>
